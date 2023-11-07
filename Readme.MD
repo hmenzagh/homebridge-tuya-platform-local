@@ -1,3 +1,5 @@
+This repo is a fork of iRayanKhan's homebridge-tuya plugin. Since the original repo is no longer maintained, I have forked it to correct several errors. I do not have a lot of time to maintain this repo either but will do my best to merge PRs and fix issues.
+
 <p align="center">
     <img src="https://raw.githubusercontent.com/iRayanKhan/homebridge-tuya/main/assets/Tuya-Plugin-Branding.png" height="100"><br>
 </p>
