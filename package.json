@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-tuya-local",
+  "name": "homebridge-tuya-platform-local",
   "displayName": "Homebridge Tuya Local",
   "version": "3.0.0-beta.3",
 
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hmenzagh/homebridge-tuya-local.git"
+    "url": "git+https://github.com/hmenzagh/homebridge-tuya-platform-local.git"
   },
   "author": "Rayan Khan & hmenzagh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hmenzagh/homebridge-tuya-local/issues"
+    "url": "https://github.com/hmenzagh/homebridge-tuya-platform-local/issues"
   },
-  "homepage": "https://github.com/hmenzagh/homebridge-tuya-local#readme",
+  "homepage": "https://github.com/hmenzagh/homebridge-tuya-platform-local#readme",
   "dependencies": {
     "async": "^3.2.5",
     "commander": "^3.0.2",
