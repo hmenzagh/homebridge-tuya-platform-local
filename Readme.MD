@@ -1,7 +1,7 @@
 This repo is a fork of iRayanKhan's homebridge-tuya plugin. Since the original repo is no longer maintained, I have forked it to correct several errors. I do not have a lot of time to maintain this repo either but will do my best to merge PRs and fix issues.
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/iRayanKhan/homebridge-tuya/main/assets/Tuya-Plugin-Branding.png" height="100"><br>
+    <img src="https://raw.githubusercontent.com/hmenzagh/homebridge-tuya/main/assets/Tuya-Plugin-Branding.png" height="100"><br>
 </p>
 
 
@@ -32,22 +32,22 @@ Control your supported Tuya accessories locally in HomeKit
 ## Supported Device Types
 > Click the number next to your device to find the possible DataPoint "DP" values, then add as needed to your config.
 
-* Air Conditioner<sup>[1](https://github.com/iRayanKhan/homebridge-tuya/wiki/Supported-Device-Types#air-conditioners)</sup> 
+* Air Conditioner<sup>[1](https://github.com/hmenzagh/homebridge-tuya/wiki/Supported-Device-Types#air-conditioners)</sup> 
 * Air Purifiers<sup>[2]()</sup>
-* Convectors<sup>[3](https://github.com/iRayanKhan/homebridge-tuya/wiki/Supported-Device-Types#heat-convectors)</sup>
-* Dehumidifers<sup>[4](https://github.com/iRayanKhan/homebridge-tuya/wiki/Supported-Device-Types)</sup>
-* Dimmers<sup>[5](https://github.com/iRayanKhan/homebridge-tuya/wiki/Supported-Device-Types#simple-dimmers)</sup>
-* Fan<sup>[6](https://github.com/iRayanKhan/homebridge-tuya/wiki/Supported-Device-Types)</sup>
-* Fan v2<sup>[7](https://github.com/iRayanKhan/homebridge-tuya/wiki/Supported-Device-Types)</sup>
-* Garages<sup>[8](https://github.com/iRayanKhan/homebridge-tuya/wiki/Supported-Device-Types#garage-doors)</sup>
-* Heaters<sup>[9](https://github.com/iRayanKhan/homebridge-tuya/wiki/Supported-Device-Types)</sup>
+* Convectors<sup>[3](https://github.com/hmenzagh/homebridge-tuya/wiki/Supported-Device-Types#heat-convectors)</sup>
+* Dehumidifers<sup>[4](https://github.com/hmenzagh/homebridge-tuya/wiki/Supported-Device-Types)</sup>
+* Dimmers<sup>[5](https://github.com/hmenzagh/homebridge-tuya/wiki/Supported-Device-Types#simple-dimmers)</sup>
+* Fan<sup>[6](https://github.com/hmenzagh/homebridge-tuya/wiki/Supported-Device-Types)</sup>
+* Fan v2<sup>[7](https://github.com/hmenzagh/homebridge-tuya/wiki/Supported-Device-Types)</sup>
+* Garages<sup>[8](https://github.com/hmenzagh/homebridge-tuya/wiki/Supported-Device-Types#garage-doors)</sup>
+* Heaters<sup>[9](https://github.com/hmenzagh/homebridge-tuya/wiki/Supported-Device-Types)</sup>
 * Lights
-  * On/Off<sup>[10](https://github.com/iRayanKhan/homebridge-tuya/wiki/Supported-Device-Types)</sup>
-  * Brightness<sup>[11](https://github.com/iRayanKhan/homebridge-tuya/wiki/Supported-Device-Types#tunable-white-light-bulbs)</sup>
-  * Color<sup>[12](https://github.com/iRayanKhan/homebridge-tuya/wiki/Supported-Device-Types#white-and-color-light-bulbs)</sup> (Hue, Saturation, Adaptive Lighting)
-* Oil Diffusers<sup>[13](https://github.com/iRayanKhan/homebridge-tuya/wiki/Supported-Device-Types)</sup>
-* Outlets<sup>[14](https://github.com/iRayanKhan/homebridge-tuya/wiki/Supported-Device-Types#outlets)</sup>
-* Switches<sup>[15](https://github.com/iRayanKhan/homebridge-tuya/wiki/Supported-Device-Types)</sup>
+  * On/Off<sup>[10](https://github.com/hmenzagh/homebridge-tuya/wiki/Supported-Device-Types)</sup>
+  * Brightness<sup>[11](https://github.com/hmenzagh/homebridge-tuya/wiki/Supported-Device-Types#tunable-white-light-bulbs)</sup>
+  * Color<sup>[12](https://github.com/hmenzagh/homebridge-tuya/wiki/Supported-Device-Types#white-and-color-light-bulbs)</sup> (Hue, Saturation, Adaptive Lighting)
+* Oil Diffusers<sup>[13](https://github.com/hmenzagh/homebridge-tuya/wiki/Supported-Device-Types)</sup>
+* Outlets<sup>[14](https://github.com/hmenzagh/homebridge-tuya/wiki/Supported-Device-Types#outlets)</sup>
+* Switches<sup>[15](https://github.com/hmenzagh/homebridge-tuya/wiki/Supported-Device-Types)</sup>
 
 Note: Motion, and other sensor types don't behave well with responce requests, so they will not be added. 
 
