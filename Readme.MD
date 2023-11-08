@@ -1,4 +1,8 @@
-This repo is a fork of iRayanKhan's homebridge-tuya plugin. Since the original repo is no longer maintained, I have forked it to correct several errors. I do not have a lot of time to maintain this repo either but will do my best to merge PRs and fix issues.
+This repo is a fork of iRayanKhan's homebridge-tuya plugin.
+
+Since the original repo is no longer maintained, I have forked it to correct several errors.
+
+I do not have a lot of time to maintain this repo either but will do my best to merge PRs and fix issues.
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/hmenzagh/homebridge-tuya-local/main/assets/Tuya-Plugin-Branding.png" height="100"><br>
@@ -7,7 +11,7 @@ This repo is a fork of iRayanKhan's homebridge-tuya plugin. Since the original r
 
 <span align="center">
 
-# Homebridge-Tuya
+# Homebridge-Tuya-Local
 
 [![npm](https://img.shields.io/npm/v/homebridge-tuya.svg)](https://www.npmjs.com/package/homebridge-tuya)
 [![npm](https://img.shields.io/npm/dt/homebridge-tuya.svg)](https://www.npmjs.com/package/homebridge-tuya)
@@ -94,6 +98,7 @@ If you have new accessory logic for a new device, please add a function defined 
 
 ## Credits
 
+* [iRayanKhan](https://github.com/iRayanKhan) - developer of the [Tuya-Lan](https://github.com/iRayanKhan/homebridge-tuya) plugin wich is a fork of his work. 
 * [AMoo-Miki](https://github.com/AMoo-Miki) - developer of the [Tuya-Lan](https://github.com/AMoo-Miki/homebridge-tuya-lan) plugin which this plugin is based off. 
 * mxDanger - Plugin branding.
 * [CodeTheWeb](https://github.com/CodeTheWeb) - developer of [TuyaApi](https://github.com/codetheweb/tuyapi), who gratiously provided this repo's name.
