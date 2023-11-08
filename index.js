@@ -23,8 +23,8 @@ const SwitchAccessory = require('./lib/SwitchAccessory');
 const ValveAccessory = require('./lib/ValveAccessory');
 const OilDiffuserAccessory = require('./lib/OilDiffuserAccessory');
 
-const PLUGIN_NAME = 'homebridge-tuya-lan';
-const PLATFORM_NAME = 'TuyaLan';
+const PLUGIN_NAME = 'homebridge-tuya-local';
+const PLATFORM_NAME = 'TuyaLocal';
 
 const CLASS_DEF = {
     outlet: OutletAccessory,
@@ -58,10 +58,10 @@ module.exports = function(homebridge) {
         hap: {Characteristic, Service, AdaptiveLightingController, Accessory: {Categories}, uuid: UUID}
     } = homebridge);
 
-    homebridge.registerPlatform(PLUGIN_NAME, PLATFORM_NAME, TuyaLan, true);
+    homebridge.registerPlatform(PLUGIN_NAME, PLATFORM_NAME, TuyaLocal, true);
 };
 
-class TuyaLan {
+class TuyaLocal {
     constructor(...props) {
         [this.log, this.config, this.api] = [...props];
 

@@ -14,7 +14,7 @@ The configuration parameters to enable your devices would need to be added to `p
         ...
         /* The block you need to enable this plugin */
         {
-            "platform": "TuyaLan",
+            "platform": "TuyaLocal",
             "devices": [
                 /* The block you need for each device */
                 {
