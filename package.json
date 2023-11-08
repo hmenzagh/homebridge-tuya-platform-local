@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hmenzagh/homebridge-tuya.git"
+    "url": "git+https://github.com/hmenzagh/homebridge-tuya-local.git"
   },
   "author": "Rayan Khan & hmenzagh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hmenzagh/homebridge-tuya/issues"
+    "url": "https://github.com/hmenzagh/homebridge-tuya-local/issues"
   },
-  "homepage": "https://github.com/hmenzagh/homebridge-tuya#readme",
+  "homepage": "https://github.com/hmenzagh/homebridge-tuya-local#readme",
   "dependencies": {
     "async": "^3.2.5",
     "commander": "^3.0.2",
