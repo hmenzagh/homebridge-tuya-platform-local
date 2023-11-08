@@ -1,7 +1,7 @@
 {
   "name": "homebridge-tuya-platform-local",
   "displayName": "Homebridge Tuya Local",
-  "version": "3.0.0-beta.3",
+  "version": "3.0.1",
 
   "description": "🏠 Unofficial Homebridge plugin enabling local control of Tuya smart devices",
   "main": "index.js",
