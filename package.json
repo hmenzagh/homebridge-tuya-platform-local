@@ -24,13 +24,13 @@
   },
   "homepage": "https://github.com/hmenzagh/homebridge-tuya#readme",
   "dependencies": {
-    "async": "^3.1.0",
-    "commander": "^3.0.1",
+    "async": "^3.2.5",
+    "commander": "^3.0.2",
     "fs-extra": "^8.1.0",
-    "http-mitm-proxy": "^0.8.1",
-    "json5": "^2.1.0",
-    "qrcode": "^1.4.1",
-    "yaml": "^1.6.0"
+    "http-mitm-proxy": "^0.8.2",
+    "json5": "^2.2.3",
+    "qrcode": "^1.5.3",
+    "yaml": "^1.10.2"
   },
   "keywords": [
     "homebridge-plugin",
