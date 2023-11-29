@@ -35,7 +35,7 @@ Control your supported Tuya accessories locally in HomeKit
 
 ## Supported Device Types
 > Click the number next to your device to find the possible DataPoint "DP" values, then add as needed to your config.
-
+* Presence Sensor (ZY-M100)
 * Air Conditioner<sup>[1](https://github.com/hmenzagh/homebridge-tuya-platform-local/wiki/Supported-Device-Types#air-conditioners)</sup> 
 * Air Purifiers<sup>[2]()</sup>
 * Convectors<sup>[3](https://github.com/hmenzagh/homebridge-tuya-platform-local/wiki/Supported-Device-Types#heat-convectors)</sup>
