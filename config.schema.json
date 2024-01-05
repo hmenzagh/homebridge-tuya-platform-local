@@ -25,6 +25,12 @@
                     ]
                   },
                   { 
+                    "title": "Human Presence Sensor",
+                    "enum": [
+                      "OccupancySensor"
+                      ]
+                  },
+                  { 
                     "title": "Smart Plug / Barely Smart Power Strip",
                     "enum": [
                       "Outlet"

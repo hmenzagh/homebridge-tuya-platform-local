@@ -51,6 +51,7 @@ Control your supported Tuya accessories locally in HomeKit
   * Color<sup>[12](https://github.com/hmenzagh/homebridge-tuya-platform-local/wiki/Supported-Device-Types#white-and-color-light-bulbs)</sup> (Hue, Saturation, Adaptive Lighting)
 * Oil Diffusers<sup>[13](https://github.com/hmenzagh/homebridge-tuya-platform-local/wiki/Supported-Device-Types)</sup>
 * Outlets<sup>[14](https://github.com/hmenzagh/homebridge-tuya-platform-local/wiki/Supported-Device-Types#outlets)</sup>
+* Presence Sensor (ZY-M100)
 * Switches<sup>[15](https://github.com/hmenzagh/homebridge-tuya-platform-local/wiki/Supported-Device-Types)</sup>
 
 Note: Motion, and other sensor types don't behave well with responce requests, so they will not be added. 
@@ -97,7 +98,7 @@ sudo npm install -g homebridge-tuya
 If you have new accessory logic for a new device, please add a function defined by manufacturer, and describe your changes in the readME file. 
 
 ## Credits
-
+* Eliran Sapir (ttps://github.com/sapireli) - updated fork of @iRayanKhan's work.
 * [iRayanKhan](https://github.com/iRayanKhan) - developer of the [Tuya-Lan](https://github.com/iRayanKhan/homebridge-tuya) plugin wich is a fork of his work. 
 * [AMoo-Miki](https://github.com/AMoo-Miki) - developer of the [Tuya-Lan](https://github.com/AMoo-Miki/homebridge-tuya-lan) plugin which this plugin is based off. 
 * mxDanger - Plugin branding.

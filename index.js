@@ -1,6 +1,7 @@
 const TuyaAccessory = require('./lib/TuyaAccessory');
 const TuyaDiscovery = require('./lib/TuyaDiscovery');
 
+const OccupancySensorAccessory = require('./lib/OccupancySensorAccessory');
 const OutletAccessory = require('./lib/OutletAccessory');
 const SimpleLightAccessory = require('./lib/SimpleLightAccessory');
 const MultiOutletAccessory = require('./lib/MultiOutletAccessory');
@@ -27,6 +28,7 @@ const PLUGIN_NAME = 'homebridge-tuya-platform-local';
 const PLATFORM_NAME = 'TuyaPlatformLocal';
 
 const CLASS_DEF = {
+    occupancysensor: OccupancySensorAccessory,
     outlet: OutletAccessory,
     simplelight: SimpleLightAccessory,
     rgbtwlight: RGBTWLightAccessory,
